@@ -1,5 +1,11 @@
 const Footer = () => {
-    return <footer></footer>
-}
+    return (
+        <footer className="footer footer-center bg-base-300 text-base-content p-4">
+            <aside>
+                <p>Copyright © {new Date().getFullYear()} - All right reserved by PT Strategic Partner Solution</p>
+            </aside>
+        </footer>
+    );
+};
 
 export default Footer;
