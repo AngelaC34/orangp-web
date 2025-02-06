@@ -16,7 +16,7 @@ export default function LoginPage() {
                           <input type="password" placeholder="Password" className="input input-bordered w-full" />
                           <a className="text-sm link link-primary self-end mt-1">Forgot Password?</a>
                       </div>
-                      <Link href="/home">
+                      <Link className="w-full max-w-xs" href="/home">
                           <button type="submit" className="btn btn-active btn-primary w-full max-w-xs">Sign In</button>
                       </Link>
                     </form>
